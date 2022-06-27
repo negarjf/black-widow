@@ -8,6 +8,8 @@ export default function App() {
         <hr />
         <i>Be back soon...</i>
       </h2>
+
+      <h3>Test</h3>
     </div>
   );
 }
