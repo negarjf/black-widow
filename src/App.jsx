@@ -44,8 +44,8 @@ export default function App() {
                 hi there,
               </Heading>
               <Text size="lg">
-                This is <b>Negar</b>. I am a <b>fontend developer</b> based in{" "}
-                <b>Berlin</b> and originally from <b>Iran</b>. I have studied
+                This is <b>Negar</b>. I am a <b>frontend developer</b> based in{" "}
+                <b>Montreal</b> and originally from <b>Iran</b>. I have studied
                 physics with the dream of becoming an astrophysicist, before I
                 start self-sudying web development. You can read the full story{" "}
                 <Link
@@ -70,7 +70,11 @@ export default function App() {
                   <b>blogging</b>
                 </Link>
                 {" and "}
-                <Link textDecoration="underline" href="#talks" isExternal>
+                <Link
+                  textDecoration="underline"
+                  href="https://www.youtube.com/playlist?list=PLRhXi4CWm3mN0OZ0Z3OFS_foP8TY-Ms1Y"
+                  isExternal
+                >
                   <b>public speaking</b>
                 </Link>
                 .
